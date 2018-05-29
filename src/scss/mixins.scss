@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,700');
+
+// ***
+// MISC
+
+@mixin border-radius($value) {
+  -webkit-border-radius: $value !important;
+     -moz-border-radius: $value !important;
+      -ms-border-radius: $value !important;
+          border-radius: $value !important;
+}
+
+@mixin border-radius-custom($top, $right, $bottom, $left) {
+  -webkit-border-radius: $top $right $bottom $left !important;
+     -moz-border-radius: $top $right $bottom $left !important;
+      -ms-border-radius: $top $right $bottom $left !important;
+          border-radius: $top $right $bottom $left !important;
+}
+
+@mixin transition($property, $seconds, $animation){
+  -webkit-transition: $property $seconds $animation;
+     -moz-transition: $property $seconds $animation;
+      -ms-transition: $property $seconds $animation;
+          transition: $property $seconds $animation;
+}
+
+
+// ***
+// FONTS
+
+@mixin font-regular {
+  font-family: Poppins, 'sans-serif' !important;
+  font-style: normal !important;
+  font-weight: 400;
+}
+
+@mixin font-bold {
+  font-family: Poppins, 'sans-serif' !important;
+  font-style: normal;
+  font-weight: 500;
+}

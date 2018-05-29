@@ -1,0 +1,48 @@
+@import 'mixins';
+@import 'variables';
+
+// ***
+// FONTS
+
+.font-regular {
+  @include font-regular;
+}
+
+
+// ***
+// FONTS COLORS
+
+.white {
+  color: $white !important;
+}
+
+.black {
+  color: $black !important;
+}
+
+.primary-font-color {
+  color: $primary-font-color !important;
+}
+
+.disabled-font-color {
+  color: $disabled-font-color !important;
+}
+
+
+// ***
+// BACKGROUND COLOR
+
+.white-bg {
+  background-color: $white !important;
+}
+
+.black-bg {
+  background-color: $black !important;
+}
+
+
+// ***
+// BORDER COLORS
+.border-bottom-color-white {
+  border-bottom-color: $white !important;
+}
